@@ -4,6 +4,9 @@ namespace MicrosoftSplitArrayChallenge
 {
   class Program
   {
+    //given a vector of ints and a separator, return an array of int in which all the lower than separators are in the left and greater than separator on the right
+    // [ <K, K, >K]
+    
     static void Main(string[] args)
     {
       int[] v = { 4 , -1, -6, 125, 11 , 15, 19, 9, 3, 1, 25, -7, -32, 7 };
